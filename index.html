@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     
     <!-- Bootstrap CSS -->
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -21,17 +21,46 @@
     <div id="container">
     <header>
       <div class="main-header">
-        <div class="logo">
-            <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="cliffs.html">Cliffs</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarContent">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cliffs.html">Cliffs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="activities.html">Activities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarNavDropdownLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Library</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarNavDropdownLink">
+                    <a class="dropdown-item" href="#">HTML-5</a>
+                    <a class="dropdown-item" href="#">CSS-3</a>
+                    <a class="dropdown-item" href="#">Bootstrap-4</a>
+                  </div>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
+          <button class = "navbar-toggler" type = "button" data-toggle = "collapse" 
+            data-target = "#navbarContent" 
+            aria-controls = "navbarContent" aria-expanded = "false" 
+            aria-label = "Toggle navigation">
+                      
+            <span class = "navbar-toggler-icon"></span>
+        </button>
     </div>
     </header>
 
@@ -111,7 +140,9 @@
     </div>
 
     <!-- Bootstrap jQuery -->
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Bootstrap Popper -->
 
     <!-- Bootstrap JS -->
